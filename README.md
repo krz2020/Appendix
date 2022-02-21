@@ -38,7 +38,7 @@ Layer structure of base GAN network. (64, (5,5), (2,2), s) indicates that this t
 	
 ### Auxiliary Discriminator 
 
-![Auxiliary Discriminator Network](./image_assets/4.1.2_Auxiliary_Discriminator_Network.jpg?raw=true)
+![Auxiliary Discriminator Network](./image_assets/4.1.2_Auxiliary_Discriminator_Network.png?raw=true)
 
 Layer structure of Auxiliary discriminator. (64, (5,5), (2,2), s) indicates that this two dimensional convolutional layer has 64 filters, 5x5 kernel size, 2x2 strides and padding parameter ‘same’. We train the auxiliary discriminator with 20 epochs using Adam optimizer and a learning rate of 1e-4. The loss is the categorical cross entropy defined as in the Tensorflow keras library. 
 	
